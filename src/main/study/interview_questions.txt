@@ -1,0 +1,15 @@
+1. Difference between Spring and SpringBoot.
+2. Difference betweeen List and Set.
+3. Difference between hashmap and hashset.
+4. Explain @EnableAutoConfiguration.
+5. Explain difference between @Service, @Repository and @Entity.
+6. What are different types of design patterns.
+7. Give examples of practical implementation of Singleton pattern.
+8. Give examples of practical implementation of Builder pattern.
+9. Write a singleton class.
+10. How do we handle exceptions in Java.
+11. How can we avoid executing finally block.
+12. How can we customize @AutoConfiguration implementation.
+13. Programming: Print the first top 5 & top 10 repeated words in descending order from the given paragraph.
+    Sample Input:
+    Output:
