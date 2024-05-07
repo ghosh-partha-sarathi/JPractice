@@ -1,0 +1,29 @@
+Comparator vs Comparable
+=====================================================================
+Comparator and Comparable are both functional interfaces used for comparing object instances of same class.
+Comparable is used when we want to keep the comparing logic internal to the class.
+Comparable is a functional interface with a single method "compareTo".
+The comparing object class needs to implement Comparable interface with comparing logic written inside compareTo method.
+Return type of compareTo method is integer.
+
+Comparator is used when we want to write the comparing logic external to the class.
+The comparing logic is written inside "compare" method.
+Return type of compare method is integer.
+When compare(T x, T y), compare method returns-
+    0: if (x==y)
+    -1: if (x < y)
+    1: if (x > y)
+
+Functional Interfaces:
+==========================
+An interface is called functional when it has only one unimplemented/abstract method.
+A functional interface can have additional methods with implementations but it should have only one
+    unimplemented method.
+These are designed to facilitate the use of lambda expressions.
+We use @FunctionalInterface to ensure that an interface is functional, however usage of this annotation is optional.
+Examples of functional interfaces in Java library-
+1. Runnable
+2. Comparable
+3. Comparator
+4. ActionListener
+5. Predicate, Consumer, Function etc.

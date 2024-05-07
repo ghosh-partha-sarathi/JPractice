@@ -1,6 +1,0 @@
-JSR: Java Specification Request
-REPL: Read-Evaluate-Print-Loop
-Reference link for JDK9
-    - http://openjdk.java.net/projects/jdk9/
-
-* Modules
