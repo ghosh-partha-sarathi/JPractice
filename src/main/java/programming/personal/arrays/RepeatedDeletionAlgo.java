@@ -1,4 +1,4 @@
-package array;
+package programming.personal.arrays;
 
 /**
  * Given a sorted array, remove the duplicates such that each element appears only once.

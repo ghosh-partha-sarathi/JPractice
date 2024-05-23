@@ -1,4 +1,4 @@
-package array;
+package programming.personal.arrays;
 
 public class DuplicateZeros {
     public static void main(String args[]){
