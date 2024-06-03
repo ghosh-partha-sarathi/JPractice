@@ -1,0 +1,58 @@
+1. Create a simple API/service to create/update user.
+2. Using one controller method create/update user.
+3. How to validate the fields like user-id cannot be null, phone number should be 10 digits etc.
+4. @Configuration, @Bean
+5. JPA repository - entities
+6. Reactive programming.
+7. How does an endpoint look like?
+8. Custom validation on model e.g. name length etc.
+9. How do we print error response to invalid input.
+10. Global exception handlers concept.
+11. Write an entity class for customer object with parameters (name, id).
+	How to show composite key in entity class.
+	How is the corresponding JPA class look like.
+12. Write a custom query.
+13. There are two datbases both using JPA, how to ensure which repository connects to which database.
+14. What processes are involved after a code is committed.
+15. tools used for vulnerability scans.
+16. Select Array vs ArrayList.
+17. Remove duplicates from a list.
+18. How to implement spring application.
+19. An API getting timed out after 15secs, how do you fix it?
+20. Check string Palindrome.
+21. Get third largest salary from list using streams.
+22. TDD
+23. SOLID principles
+24. Kafka basics
+25. Concurrent Hashmap
+26. Explain DNS
+27. Event driven programming
+28. Design patterns
+29. Messaging related info
+30. HTTP status codes.
+31. Authentication
+32. How to prevent deadlock in Java
+33. How to achieve asynchronous calls in Java.
+34. How to achieve asynchronous calls in Springboot
+35. How to connect to multiple dbs in a single call of a controller.
+36. Communication between microservices, synchronous vs asynchronous.
+37. What is synchronized in multi-threading?
+38. How requests are handled in API gateway?
+39. Naming convention of REST url.
+40. Explain Spring security with use cases.
+41. How to handle exceptions in asynchronous programming.
+42. Java 8 features.
+43. Serialization/Deserialization.
+44. Lambda expressions
+45. Microservice pattern used?
+46. How to add new functionality to existing service.
+47. How to secure microservice architecture.
+48. How to ensure API calls don't fail in microservice architecture.
+49. Explain Actuator.
+50. What are synchronized collection?
+51. How to delete from a collection in a synchronized environment.
+52. What is threadpool.
+53. Explain Spring webflux.
+54. Print a string without duplicate character.
+55. Create new HashMap implementation.
+56.

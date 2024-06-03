@@ -1,0 +1,650 @@
+1. What are annotations and the annotations used in core java
+2. Definition of microservices
+3. How do microservices communicate with each other
+4. How to create custom checked and unchecked exceptions
+5. Functional interface and its purpose
+6. Difference between soap and rest services
+7. Previous project explanation
+8. CRUD operations in hibernate
+9. What is microservices and how communication is done?
+10. What is SpringBoot?
+11. What is Annotation?
+12. How to write code for custom exceptions?
+13. What are types of exceptions and what is unchecked exception with example?
+14. Name some annotations used in Core Java--( I have said @Override and interviewer asked to explain @Override annotation)
+15. What is Method Reference?
+16. Why do we use Functional Interface?
+17. What is dependency Injection?
+18. What are procedures in SQL?
+19. Maven LifeCycle
+20. Create custom unchecked exception
+21. What is microservice
+22. Explain all you know about microservice
+23. what is JPA
+24. Diff bwt JPA and Hibernate
+25. Diff bwt JPA and JDBC
+26. What is JDBC
+27. Explain from full flow of microservice you know about?
+28. What is Functional Interface?
+29. What is lamda Expression
+30. What is trigger?
+31. what Front technology you know and explain
+32. what is indexes in sql?
+33. what is primary key and foreign key?
+34. when you design a project what all things you take into consideration?
+35. what is package in sql
+37. difference between stored procedure,function and package.
+
+
+
+1.given an array of items prices.. each price has discount price = previous item price.. first item doesnt have any discount..
+so what is the final price customer has to pay after discount applied
+[100,200,300,400]
+2.50 GB File : with headers - Name, Mark1, Mark2, Mark3, Department
+if Department is cse , find the topper (Aggregation of Marks)
+3.Sending student object from ui to controller, in that retreive students names belongs to ECE department. need to retrieve marks of respective students from DB.
+4.How to have multiple DB connections in your application?
+5.Application context path in Spring boot
+6.@configuration and @value annotations in Spring boot
+7. What is Profile
+8.Difference between String buffer and String
+9.How to find duplicates in Array or ArrayList?
+10.Transient keyword
+11. Seriablization in java
+How to convert Map into List?
+How to get current time in milli seconds?
+How to get current in UTC time zone?
+How to find duplicates in Array or ArrayList?
+Some streams questions.
+what are the annotations you use in controller, service and repository classes, to fetch the employee record, by passing id , asked for template
+where you will mention your application configurations?
+how to pull before merging into master branch?
+How to have multiple DB connections in your application?
+How to have environment specific like prod,dev etc ? --> @profile
+How you have deployed your application?
+What is GET, PUT, POST, PATCH
+how do you do a task till production from JIRA assignment(SDLC)
+how do you send the API response to the client
+SOLID principles
+Design patterns used and Why do we need Design patterns
+how to populate faster response to the UI (suppose API sends response in 3secs how to optimize it)
+How do you do integration testing for an API
+how will you create a service which can be extended for other services without modification
+what is Snapshot and Release
+How to connect 2 systems(S1 and S2)
+What is Association, Aggregation and Composition
+How do you do integration testing for an API (Junit)
+Question 1st:- Write Get Employee By Id API and there Controller class code- ?
+Qestion 2nd :- Explain @Autowire and  Explain @RestController
+Question 3ed:- Scope -> "Singleton" and "Request" Explain
+Question 4th:- if we write @Component at place of @Service what will happened ?
+
+Question 5th :- What is @Mock anotation do when Class return nothing in Junit ?
+Question 6th:- Write JUnit Test Case for Get Employee By Id API
+Question 7th:- What -2 anontation we are using in JUnit Testcase Service class Explain ?
+
+Question 8th:- count the array number whose value greater then 100 `by using Java8 Stream ?
+
+Question 9th:-Count no of employee based on deparment using below Table ?
+Employee -> empname , empid ,deparment id , salary
+Department-> dept_name , deptId;
+
+* Can we create the prototype bean inside of singleton bean and how it works?
+Hashmap works internally
+ArrayList works internally
+
+Difference between drop, truncate and delete tables?
+
+Sending student object from ui to controller, in that retreive students names belongs to ECE department. need to retrieve marks of respective students from DB.
+
+application.properties
+application-dev.properties
+
+
+@RestController
+public class StudentController{
+
+@Autowired
+private StudentService studentService;
+
+
+
+
+
+@RqeuestMapping(value="/studentsByDept/{dname}, method=RquestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
+public ResponseEntity<List<Student>> getByDepartmentName(@PathVariable ("dname") String dname){
+
+List<Student> students=studentService.getStudentsByDname(dname);
+
+return new ResponseEntity().body();
+
+}
+
+jdbcTemplate.queryForList("select * from student where deptno IN(select deptno from department where dname=?)", new BeanPropertyRowMapper<Student>(Student.class), dname);
+
+
+
+Complete Implementation of Spring Boot Rest API for Customer who never order
+
+select * from customer where id not in (select customerId from orders)
+
+[customer]
+id name
+1  ankit
+2  ram
+3  ankur
+4  sonam
+
+[orders]
+id customerId
+1  3
+2  1
+
+controller - get, post, put, delete
+
+
+
+Find out employee who never did any training - write API code (Implementation)
+Write API endpoint for above scenario
+Program to print Count of each character in a string (Using Java8)
+String str="Hi sandhya good morning and alll the best"
+Write a query to get the list of  employees who never did any training
+Table1 - Employee - empid,name
+Table2 - Training - empid, trainingname, completed
+
+
+1 )  Design --  File with max of 2GB size about customer data is getting dump in remote drive ever 2 second. Each row in file contains customer/employee information with space separated .For each customer data need to perform kyc and fetching representative details.
+Once user is valid then store the user details in database . In design handle the exception scenarios.
+
+2) Anagram without loop and collections.
+
+Difference between synchronized colletion and Concurrent collection.
+Sonarqube?
+what will happen if 2 subscribers will read the message from the same Kafka topic?
+
+1)what is hash collision in in hashmap ?
+
+2)Can we use user defied object as key in java ?
+
+3)Difference between sleep() and wait() methods in threads?
+
+4)Can create abstract class without abstract method?
+
+5)Difference between interface and abstract class ?
+
+6)what is functional interface ?
+
+7)default bean scope in spring boot ?
+
+8)difference between spring mvc and spring boot ?
+
+9)HTTP status codes ?
+
+10)Different ways of dependecy injection ?
+
+11)how to connect with database in Spring boot application ?
+
+12)filter Employee list based on age using streams?
+
+13)group employees based on age using streams?
+
+14) Given an array of strings, group anagrams together.
+
+Example:
+
+* Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+
+* Output: ["ate", "eat", "tea"], ["nat", "tan"], ["bat"]
+
+*/
+
+Q1) Introduce your self and what all projects you worked please brief?
+
+Q2) what are all http methods available in SpringBoot to create RestAPI?
+
+Q3) Differce between post and put methods?
+
+Q4) Find the 3rd largest number in a list of integers
+
+Q5) You are given a list of objects ExamScore
+
+public static class ExamScore{
+
+  public String student;
+
+  public String score;
+
+  public String subject;
+
+  }
+
+Any student can appear in any number of exam. Find the name of the student who has scored the highest average?
+
+
+1) what is API gateway and types of API gateway?(API blocking)
+
+2) what is mono and flux?
+
+3) what type of communication between your microservices?
+
+4) how do you validate singlton class and implemetation of Singlton?
+
+5) what is diff between controller and restcontroller?
+
+6) what is AOP? did you used in your projects?
+
+7) did you worked on unit testing explain how will you write?
+
+8) which purpose you used Kafka in your project?
+
+9) what is MVC?
+
+10) what is Eureka why is it required?
+
+11) which all component you worked on microservices ?
+
+12) difference between spring and springboot features of Springboot?
+
+Differnce between C, C++ and java. how Java is platform independent?
+Questions on Exception handling (checked exceptions??)??
+Questions on Multithreading (lock mechanism)??
+
+GET method limiation of 2048 KB.
+
+Ribbon client
+Client side load balancing at service layer in SpringBoot
+
+
+Load balancing
+Pod scaling
+Caching
+Databse optimization
+Database replicas
+
+Ratelimiting Concurrent hashmap
+
+Reactive programming in SpringBoot
+	Flux and Mono
+
+@EnableAsync
+
+BackPressure handling in messaging API
+DeadLetterQueue
+if message produced to topic but no ack , how do you handl
+Callable<Future>
+
+
+20. Write a program which would take a string as input like 'aabccd' and print the occurances of characters  in the format a=2,b=1,c=2,d=1
+
+Q1) How will you authenticate your API server side?
+
+Q2) Types of cache memory?
+
+Q3) you have N size number of memory and types queries like 1 for update and 2 for get the value.
+
+if N is 4;
+1 2 3
+1 3 4
+2 3
+1 4 0
+1 6 2
+
+if your memory size if full and do you need to update the new then remove first one and if you have
+2nd query operation then moved it first.
+
+Q4) You have one share that you cannot buy and sell on the same day, and the share price can increase or decrease,you need to make a profit.
+
+[1,2,3,10,2,18]
+
+Spliterator?
+
+Ways to defend your Application service when an individudal performs DOS attack, DDOS attack
+
+8. you have 2187 coins and weighing scale that has 2 sides and is empty, whats the minimum number of comparisons required to get a coin which is visually similar but weighs more than all the other coins
+9. whats hashing, salding, horizontal scaling
+
+
+[14:36] Kasimsetty RameshGuptha, Shwetha
+what is SonarQube and what is it used for?
+what will happen if 2 subscribers will read the message from the same Kafka topic?
+Tell us about yourself, what you do, and your last project.
+Based on your eCommerce experience, how would you communicate between two microservices, OrderService and PaymentService?
+What are the advantages and disadvantages of these solutions?
+Assume that the conversion from PLN to USD works by first converting PLN to EUR, and then from EUR to USD. How would you approach this topic? What would you change?
+Why did you introduce defensive programming? What are the advantages of this?
+What is the benefit of fail-fast in this case?
+If you wanted to pull in an external dependency, e.g., BNYService, how would you do it?
+Why do you think the preferred way is through a controller, what are the advantages and disadvantages compared to @Autowired on a field?
+You have a method initializeExchangeRates and you have defined certain conversion pairs, what could you improve, what refactoring techniques can be introduced, or what can be highlighted?
+What does the introduction of the enumerated type ExchangeRate give you?
+Assuming the scenario that the conversion takes place several times, would you need to extend the enumerated type ExchangeRate? What changes can be made or how would you approach this issue?
+How would you write tests for this?
+What is the difference between unit tests and integration tests?
+Why such tests?
+The advantage of BDD and the tests you wrote.
+What scenarios do you foresee in testing the code and what do you base it on?
+Would you write any other tests?
+You mentioned parameterized tests, how would you approach this topic here?
+Is it okay or not to operate on double in the context of money?
+What external libraries do you know in the context of handling currencies and money?
+What is the difference between double and BigDouble, BigInteger, which are wrappers for them?
+You have two conflicting people on the team, how would you approach the topic?
+What do you expect from the team and how do you see it
+
+[14:36] Kasimsetty RameshGuptha, Shwetha
+1.        What are annotations and the annotations used in core java
+2.        Definition of microservices
+3.        How do microservices communicate with each other
+4.        How to create custom checked and unchecked exceptions
+5.        Functional interface and its purpose
+6.        Difference between soap and rest services
+7.        Previous project explanation
+8.        CRUD operations in hibernate
+
+What is microservices and how communication is done?
+What is SpringBoot?
+What is Annotation?
+How to write code for custom exceptions?
+What are types of exceptions and what is unchecked exception with example?
+Name some annotations used in Core Java--( I have said @Override and interviewer asked to explain @Override annotation)
+What is Method Reference?
+Why do we use Functional Interface?
+What is dependency Injection?
+Explaination how I used Spring and Spring Boot in earlier projects.
+What are procedures in SQL?
+Maven LifeCycle
+
+1. Create custom unchecked exception
+2. What is microservice
+3. Explain all you know about microservice
+4. What is annotation
+5. Annoatation in java and spring boot
+6. what is JPA
+7. Diff bwt JPA and Hibernate
+8. Diff bwt JPA and JDBC
+9. What is JDBC
+10. How microservice communicate each others?
+11. Explain from full flow of microservice you know about?
+12. What is Functional Interface?
+13. What is lamda Expression
+14. What is stored procedures
+15. what is trigger
+16. what Front technology you know and explain
+17. Explain all you do in your pervious project
+
+
+
+1.given an array of items prices.. each price has discount price = previous item price.. first item doesnt have any discount..
+so what is the final price customer has to pay after discount applied
+[100,200,300,400]
+2.50 GB File : with headers - Name, Mark1, Mark2, Mark3, Department
+if Department is cse , find the topper (Aggregation of Marks)
+3.Sending student object from ui to controller, in that retreive students names belongs to ECE department. need to retrieve marks of respective students from DB.
+4.How to have multiple DB connections in your application?
+5.Application context path in Spring boot
+6.@configuration and @value annotations in Spring boot
+7. What is Profile
+8.Difference between String buffer and String
+9.How to find duplicates in Array or ArrayList?
+10.Transient keyword
+11. Seriablization in java
+How to convert Map into List?
+How to get current time in milli seconds?
+How to get current in UTC time zone?
+How to find duplicates in Array or ArrayList?
+Some streams questions.
+what are the annotations you use in controller, service and repository classes, to fetch the employee record, by passing id , asked for template
+where you will mention your application configurations?
+how to pull before merging into master branch?
+How to have multiple DB connections in your application?
+How to have environment specific like prod,dev etc ? --> @profile
+How you have deployed your application?
+
+Sending student object from ui to controller, in that retreive students names belongs to ECE department. need to retrieve marks of respective students from DB.
+
+application.properties
+application-dev.properties
+
+
+
+@RestController
+public class StudentController{
+
+@Autowired
+private StudentService studentService;
+
+
+
+
+
+@RqeuestMapping(value="/studentsByDept/{dname}, method=RquestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
+public ResponseEntity<List<Student>> getByDepartmentName(@PathVariable ("dname") String dname){
+
+List<Student> students=studentService.getStudentsByDname(dname);
+
+return new ResponseEntity().body();
+
+}
+
+jdbcTemplate.queryForList("select * from student where deptno IN(select deptno from department where dname=?)", new BeanPropertyRowMapper<Student>(Student.class), dname);
+
+
+
+Complete Implementation of Spring Boot Rest API for Customer who never order
+
+select * from customer where id not in (select customerId from orders)
+
+[customer]
+id name
+1  ankit
+2  ram
+3  ankur
+4  sonam
+
+[orders]
+id customerId
+1  3
+2  1
+
+controller - get, post, put, delete
+
+introduce yourself
+2. about project
+3. what is indexes in sql?
+4. what is primary key and foreign key?
+5. when you design a project what all things you take into consideration?
+6. what is package in sql
+7. difference between stored procedure,function and package
+
+
+
+Explain Previous projects
+Find out employee who never did any training - write API code (Implementation)
+Write API endpoint for above scenario
+Program to print Count of each character in a string (Using Java8)
+String str="Hi sandhya good morning and alll the best"
+Write a query to get the list of  employees who never did any training
+Table1 - Employee - empid,name
+Table2 - Training - empid, trainingname, completed
+What is GET, PUT, POST, PATCH
+how do you do a task till production from JIRA assignment(SDLC)
+how do you send the API response to the client
+SOLID principles
+Design patterns used and Why do we need Design patterns
+how to populate faster response to the UI (suppose API sends response in 3secs how to optimize it)
+How do you do integration testing for an API
+how will you create a service which can be extended for other services without modification
+what is Snapshot and Release
+How to connect 2 systems(S1 and S2)
+What is Association, Aggregation and Composition
+How do you do integration testing for an API (Junit)
+
+
+1 )  Design --  File with max of 2GB size about customer data is getting dump in remote drive ever 2 second. Each row in file contains customer/employee information with space separated .For each customer data need to perform kyc and fetching representative details.
+Once user is valid then store the user details in database . In design handle the exception scenarios.
+
+2) Anagram without loop and collections.
+
+
+
+Question 1st:- Write Get Employee By Id API and there Controller class code- ?
+Qestion 2nd :- Explain @Autowire and  Explain @RestController
+Question 3ed:- Scope -> "Singleton" and "Request" Explain
+Question 4th:- if we write @Component at place of @Service what will happened ?
+
+Question 5th :- What is @Mock anotation do when Class return nothing in Junit ?
+Question 6th:- Write JUnit Test Case for Get Employee By Id API
+Question 7th:- What -2 anontation we are using in JUnit Testcase Service class Explain ?
+
+Question 8th:- count the array number whose value greater then 100 `by using Java8 Stream ?
+
+Question 9th:-Count no of employee based on deparment using below Table ?
+Employee -> empname , empid ,deparment id , salary
+Department-> dept_name , deptId;
+
+Can we create the prototype bean inside of singleton bean and how it works
+
+1)what is hash collision in in hashmap ?
+2)Can we use user defied object as key in java ?
+3)Difference between sleep() and wait() methods in threads?
+4)Can create abstract class without abstract method?
+5)Difference between interface and abstract class ?
+6)what is functional interface ?
+7)default bean scope in spring boot ?
+8)difference between spring mvc and spring boot ?
+9)HTTP status codes ?
+10)Different ways of dependecy injection ?
+11)how to connect with database in Spring boot application ?
+12)filter Employee list based on age using streams?
+13)group employees based on age using streams?
+14) Given an array of strings, group anagrams together.
+Example:
+* Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+* Output: ["ate", "eat", "tea"], ["nat", "tan"], ["bat"]
+*/
+
+ Problem Name is &&& Best Average Grade &&& PLEASE DO NOT REMOVE THIS LINE. */
+
+
+/*
+**  Instructions:
+**
+**  Given a list of student test scores, find the best average grade.
+**  Each student may have more than one test score in the list.
+**
+**  Complete the bestAverageGrade function in the editor below.
+**  It has one parameter, scores, which is an array of student test scores.
+**  Each element in the array is a two-element array of the form [student name, test score]
+**  e.g. [ "Bobby", "87" ].
+**  Test scores may be positive or negative integers.
+**
+**  If you end up with an average grade that is not an integer, you should
+**  use a floor function to return the largest integer less than or equal to the average.
+**  Return 0 for an empty input.
+**
+**  Example:
+**
+**  Input:
+**  [["Bobby", "87"],
+**   ["Charles", "100"],
+**   ["Eric", "64"],
+**   ["Charles", "22"]].
+**
+**  Expected output: 87
+**  Explanation: The average scores are 87, 61, and 64 for Bobby, Charles, and Eric,
+**  respectively. 87 is the highest.
+*/
+
+
+2.
+
+given numerator and Denominator
+in string format
+
+find the decimal value
+and display in this format
+
+1/2 = 0.5
+1/3 = 0.(3)
+1/6 = 0.1(6)
+
+if its recurring put in paranthesis
+// 2nd round
+1.
+
+given numerator and Denominator
+in string format
+
+find the decimal value
+and display in this format
+
+1/2 = 0.5
+1/3 = 0.(3)
+1/6 = 0.1(6)
+
+if its recurring put in paranthesis
+
+
+2. Problem Name is &&& Best Average Grade &&& PLEASE DO NOT REMOVE THIS LINE. */
+
+
+/*
+**  Instructions:
+**
+**  Given a list of student test scores, find the best average grade.
+**  Each student may have more than one test score in the list.
+**
+**  Complete the bestAverageGrade function in the editor below.
+**  It has one parameter, scores, which is an array of student test scores.
+**  Each element in the array is a two-element array of the form [student name, test score]
+**  e.g. [ "Bobby", "87" ].
+**  Test scores may be positive or negative integers.
+**
+**  If you end up with an average grade that is not an integer, you should
+**  use a floor function to return the largest integer less than or equal to the average.
+**  Return 0 for an empty input.
+**
+**  Example:
+**
+**  Input:
+**  [["Bobby", "87"],
+**   ["Charles", "100"],
+**   ["Eric", "64"],
+**   ["Charles", "22"]].
+**
+**  Expected output: 87
+**  Explanation: The average scores are 87, 61, and 64 for Bobby, Charles, and Eric,
+**  respectively. 87 is the highest.
+*/
+
+// Scores can be negative also
+
+
+ Insifficient attack
+ Docker Swarm
+ Docker images
+
+
+https://leetcode.com/discuss/interview-question/1369452/goldman-sachs-coderpad-interview-question-magic-potion-help
+https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/
+
+write an get api method with spring mvc
+write get api with pathParameter and queryParameter
+how to autogenerate id in entity class
+how to add dependency without @autowired
+ClassNotFoundException Vs NoClassDefFoundError in Java
+can we declare a final variable without initialization
+diferance bewtween default and protected access modifier
+
+
+Controller vs RestController
+PathParam - to locate a resource
+QueryParam - for filtering and sorting
+FetchType. LAZY|EAGER
+
+
+Use Spring Data JPA’s query methods or custom queries to perform geospatial searches.
+Examples:
+Find all locations within a given radius from a specific point.
+Find cities within a bounding box.
+

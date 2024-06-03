@@ -1,0 +1,114 @@
+1. Given an array of items prices.. each price has discount price = previous item price.. first item doesnt have any discount..
+	so what is the final price customer has to pay after discount applied
+	[100,200,300,400]
+
+2. 50 GB File : with headers - Name, Mark1, Mark2, Mark3, Department
+	if Department is cse , find the topper (Aggregation of Marks)
+
+3.Sending student object from ui to controller, in that retreive students names belongs to ECE department.
+	need to retrieve marks of respective students from DB.
+
+4. Count the array number whose value greater then 100 `by using Java8 Stream ?
+
+5. Count no of employee based on deparment using below Table ?
+	Employee -> empname , empid ,deparment id , salary
+	Department-> dept_name , deptId;
+
+6. Program to print Count of each character in a string (Using Java8)
+	String str="Hi sandhya good morning and alll the best"
+
+7. Design --  File with max of 2GB size about customer data is getting dump in remote drive ever 2 second. Each row in file contains customer/employee information with space separated .For each customer data need to perform kyc and fetching representative details.
+	Once user is valid then store the user details in database . In design handle the exception scenarios.
+
+8. Anagram without loop and collections.
+
+9. Write the Java code to, the method should accept two strings and return Boolean,
+	second string should contain only the chars present in 1st string  Ex:  str1="GET",
+	valid strings are "TTTTTTT", "TEGGG", invalid strings: "ABCG",
+
+10. Write the method which accepts the two strings, 2nd string should be the reverse of 1st string then return boolean
+
+11. Write the method which accepts the two strings, 2nd string should be the upper /lower case of 1st string
+	return boolean. e.g. str1:"aPPLE" str2:"Apple"
+
+12. Task 1
+	List<Object> mixedList = Arrays.asList(1, "Hello", 2.5f, 3, "World", 4.5f, 2, "Java", 3.14f);
+	A list has mix of String, Integer and Float objects. How to find which data type has a greater number of objects in the list
+
+13. Task 2 (Cap India):
+	String  s= "aaaabbbbef"
+	Find the second non repeated character (f)
+
+14. Task 3 (Cap India):
+	There is a story in a file. Find out all words which doesn’t have vowels.
+
+15. Task 4 (BNY Mellon)
+	Array 1: [1,1,1,2,3,4,5,6,1,1,1,1]		27
+	Array 2: [3,4,5]
+	Output: [24,20,0]
+
+	// each value is a sum of items from Array 1 after we remove from it 3 smallest numbers (first value of Array 2),
+	then 4 smallest (second value of Array 2), then 5 smallest numbers
+
+Difference between synchronized colletion and Concurrent collection.
+Sonarqube?
+what will happen if 2 subscribers will read the message from the same Kafka topic?
+
+16. First Non-repeated character from the String
+Ex:
+Input : { "array", "apple", "rat"}
+output : y,a,r
+
+17. find the second smallest number in integer array
+
+input: {3,2,1,1,0,-2,0,3,8}
+output : 0
+
+18. First Non-repeated character from the String
+
+ Ex:
+ Input : { "array", "apple", "rat"}
+ Output: y,a,r
+
+19. Given a string array, each element containing a line of apache log file. Every line starts with an IP address.
+    Write a program that returns the IP address which appeared most of the times from the log file.
+
+ ""123.123.23.123 - - [26/Apr/2000:00:23:48 -0400] \""GET /pics/wpaper.gif HTTP/1.0\"" 200 6248 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
+ + ""123.123.123.123 - - [26/Apr/2000:00:23:47 -0400] \""GET /asctortf/ HTTP/1.0\"" 200 8130 \""http:// search.netscape.com/Computers/Data_Formats/Document/Text/RTF\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
+ + ""123.123.123.124 - - [26/Apr/2000:00:23:48 -0400] \""GET /pics/5star2000.gif HTTP/1.0\"" 200 4005 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
+ + ""123.123.123.123 - - [26/Apr/2000:00:23:50 -0400] \""GET /pics/5star.gif HTTP/1.0\"" 404 1031 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
+ + ""123.123.123.124 - - [26/Apr/2000:00:23:51 -0400] \""GET /pics/a2hlogo.jpg HTTP/1.0\"" 200 4282 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
+ + ""123.123.123.124 - - [26/Apr/2000:00:23:51 -0400] \""GET /cgi-bin/newcount?jafsof3&width=4&font=digital&noshow HTTP/1.0\"" 200 36 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n"";"
+
+20. Find first Non-repeated character from the String
+Ex:
+Input : { "array", "apple", "rat"}
+Output: y,a,r
+
+11. Given two arrays. Arr1 = {1,2,3,8}, arr2 = {5,6,4,7}.
+	Find a number from each array to be interchanged to reach a common sum of all elements for both arrays.
+	Output: {1,5} or {3,7} or {2,6}
+
+12. Design a car rental service application.
+
+13. Infrastructure system design Problem Statement
+
+	Design a scalable, reliable, and operable service which allows my customers to shorten URLs.
+	That is, given an HTTP URL, it should return another URL based on a custom domain we have.
+	When customers visit the shortened URL, it should redirect them back to the original URL.
+
+	INPUT: http://portal.azure.com/subscriptions/00000000-0000-0000-0000- 000000000000/providers/Microsoft.Compute/virtualMachines/myvm1
+
+	OUTPUT:http://foo.bar/$(key)
+
+	The system should be able to handle 10 million (1007) new short URLs being generated each day,
+	and 1 billion (1089) URLs being converted from short to long URLs each day.
+	We would like to provide a p99 latency of 5 seconds for creating a short URL,
+	and p99 latency of 200ms for converting a short URL back into its longer form.
+
+	The system should retain URLs for 5 years and be able to tolerate failure of any single machine/rack/datacentre.
+	The target user base is geographically limited to the United States and you do not need to design the system
+	to support a globally distributed user base.
+
+	If possible, please design the system without relying on off-the-shelf software components and services.
+
