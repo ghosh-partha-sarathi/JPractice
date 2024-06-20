@@ -1,0 +1,10 @@
+Amarkosha Project:
+=================================
+Project-4
+Name       : Interlock monitoring
+Tools        : ST Visual Develop
+	Description
+			It is an EV Automotive based project, in which one heater is installed inside the BMS to control the charging of battery.
+  Roles & Responsibilities
+	Analyzed the Requirements from customer
+	Developed the code for tracking various kinds of faults inside the vehicle.
