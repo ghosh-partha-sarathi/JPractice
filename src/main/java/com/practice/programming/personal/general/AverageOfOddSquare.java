@@ -3,7 +3,6 @@ package com.practice.programming.personal.general;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * calculate the average of square of all odd numbers from a list of integers
@@ -13,11 +12,11 @@ public class AverageOfOddSquare {
         List<Integer> randomInputList = getRandomListOfIntegers();
         System.out.println("Random input: " + randomInputList);
 
-        double average = getAverageOfSquares(randomInputList);
+        int average = getAverageOfSquares(randomInputList);
         System.out.println("Average of square of odd numbers: " + average);
     }
 
-    private static double getAverageOfSquares(List<Integer> inputList){
+    private static int getAverageOfSquares(List<Integer> inputList){
         int averageOfSquares=0;
         List<Integer> listOddSquares=inputList.stream()
                                             .filter(aNumber->aNumber%2==1)
