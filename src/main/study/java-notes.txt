@@ -27,3 +27,51 @@ Examples of functional interfaces in Java library-
 3. Comparator
 4. ActionListener
 5. Predicate, Consumer, Function etc.
+
+=========================================================
+Variable arguments(var-args) are represented by ... in Java.
+It allows to pass arbitrary number of arguments of same type to a method.
+
+which of the following is valid
+public static void main(String... a)        valid
+public static void main(String...a)         valid
+public static void main(String...[] a)      INVALID
+public static void main(String[]... a)      valid
+public static void main(String.* a)         INVALID
+
+* forEach is a terminal operation which does not return a stream.
+Predicate -
+Match family - These methods take a predicate and tells us whether elements in stream
+               match that predicate or not.
+               There are three methods in this family
+               anyMatch -  returns true if ANY of the elements matches predicate
+               noneMatch - returns true if NONE of the elements matches predicate
+               allMatch -  returns true if ALL the elements matches predicate
+
+- To create a map from stream we use Collector.groupingBy('predicate for key')
+- Collections factory methods:
+    unmodifiableList
+    unmodifiableMap
+    unmodifiableSet
+    unmodifiableCollection
+- Above factory methods are allowed to read any changes in the base object but aren't allowed to
+  make/write new changes.
+- Map.copyOf() creates an unmodifiable object however unlike factory methods, changes to the base
+  collection is not reflected in case of copyOf method.
+
+Types of equality in Java-
+Reference based - uses equals method from Object
+Value based - checks for equality of values in fields, requires custom equals implementation
+HashSet are based on HashMap and TreeSet are based on TreeSet.
+
+
+https://docs.spring.io/spring-data/jpa/reference/repositories/query-keywords-reference.html
+Repository query keywords :: Spring Data JPA
+https://docs.spring.io/spring-data/jpa/reference/repositories/query-return-types-reference.html
+Repository query return types :: Spring Data JPA
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
+JPA Query Methods :: Spring Data JPA
+OAuth2.0
+https://developers.google.com/identity/openid-connect/openid-connect
+
+What is circular reference issue in SpringBoot?

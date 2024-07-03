@@ -1,0 +1,14 @@
+SOLID principles:
+S - Single Responsibility Principle
+O - Open Closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+Technical Debt - Code fragility and rigidity are symptoms of high technical debt.
+
+Software design principles help us to keep technical debt under control.
+
+
+Open-Closed Principle
+Classes, methods and modules should be closed for modification but open for extension.

@@ -1,0 +1,15 @@
+1. Calculate the sum of square of all odd numbers from a list of integers.
+2. Generate a sequence of numbers from a given input number by adding previous n digits in the sequence (n being the number
+   of integers in the input) untill the input number is reached.
+   example: input 742
+            sequence: 13, 19, 34, 66 .... 742
+3. Write a program to merge two given sorted arrays so that the resultant array is also sorted.
+   Example -
+        Input: arr1=[1, 3, 5, 7], arr2=[2, 4, 6, 8]
+        Output: arr3=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+4. Write a program to flatten a given array of numbers with nested array of numbers.
+   The nesting could be upto n levels, where n is not known.
+   Example -
+        Input: inputArr=[1, 2, [3, [4, [5, 6]]], 7, [8, [9, [10]]]]
+        Output: resultArr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+5.

@@ -1,0 +1,33 @@
+Exceptions provide a safe way to signal errors.
+Exceptions allow us to handle errors in a structured way.
+Stack trace gives the information about list of method calls that happened which led to the exception.
+try with resources - this statement allows us to perform auto cleanup, it will perform all the
+                     resource cleanup operations once try block execution is completed
+syntax:
+    try (<declare the resource to be used>) {
+        // actual code to be executed
+    } catch (Exception exp) {
+        // code to execute in case of exception
+    }
+
+AutoCloseable - To support auto cleanup in a class we need to implement AutoCloseable interface.
+AutoCloseable interface has only onr method 'close()'.
+
+Closeable interface inherits from AutoCloseable.
+
+Exceptions are represented by Classes.
+All exception classes are inherited from a common base class "Exception".
+Exception class inherits Throwable class.
+
+Exceptions are divided into two categories "checked" and "unchecked".
+Checked: These are the exceptions where compiler raises error if it is not handled in the program.
+            e.g. - FileNotFoundException, SSLException, ArithmeticException
+Unchecked: All other exceptions where compiler does not raises an error if it is not handled in the program.
+            e.g. - NullPointerException, ArrayIndexOutOfBound,
+
+* All ex exceptions inherited from RuntimeException are 'unchecked', rest all are checked exceptions.
+Methods can document exceptions using throws clause.,
+Exception.getCause() used to check for any chained exceptions.
+
+I4U delivery portal
+tokenization in text by LLM

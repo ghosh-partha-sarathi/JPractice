@@ -1,0 +1,6 @@
+1. What are synchronous and asynchronous calls in microservices?
+2. How will you implement asynchronous calls in microservices?
+3. How will you implement OAuth2 in a microservice project?
+4. What are some microservice design patterns?
+5. Advantage of microservices over monolithic.
+6. How will you handle network unavailability in microservice architecture?

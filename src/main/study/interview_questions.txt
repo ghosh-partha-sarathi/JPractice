@@ -14,7 +14,41 @@
 15. Programming: Print the first top 5 & top 10 repeated words in descending order from the given paragraph.
     Sample Input: Sunset is the time of day when our sky meets the outer space solar winds. There are blue, pink, and purple swirls, spinning and twisting, like clouds of balloons caught in a whirlwind. The sun moves slowly to hide behind the line of horizon, while the moon races to take its place in prominence atop the night sky. People slow to a crawl, entranced, fully forgetting the deeds that must still be done. There is a coolness, a calmness, when the sun does set.
     Output:
-
+16. Difference between PermGen vs MetaSpace memory structure.
+17. How does stream() work?
+18. Which is the most important principle in SOLID and why?
+19. Difference between design patterns and design principles.
+20. Give some examples where design patterns are implemented based on/using design principles.
+21. Difference between HashSet and TreeSet.
+22. How TreeSet works internally.
+23. Difference between Inheritance and Composition.
+24. Design a tinyurl system with high availability and scalability.
+25. How will you design a system for notifying different set of subscribers separately for a huge stream
+    of incoming news?
+26. Difference between @Qualifier and @Autowired annotations.
+27. Can we use objects of a custom Employee class as keys in a HashMap implementation?
+        Structure of Employee class is-
+        public class Employee {
+            private String name;
+            private int age;
+            private String designation;
+            private String department;
+            private double salary;
+        }
+28. In above question what conditions Employee class must satisfy to be able to use as key in a HashMap?
+29. What if only hashCode is overridden but not equals? Also explain answer for vice-versa condition.
+30.
 
 ==========================================================================================
 BiConsumer
+enum in depth
+IllegalMonitorStateException
+Chained Exceptions?
+reduce operation in Streams
+
+Controller vs RestController
+    RestController creates controllers for rest API's which can return response as JSON body. Return value
+is bound to response body and no view layer is required. @RestController is a meta annotation and is a combination
+of @Controller and @RequestBody annotations.
+
+CommandLineRunner in Springboot

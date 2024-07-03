@@ -304,7 +304,6 @@ Ways to defend your Application service when an individudal performs DOS attack,
 9. whats hashing, salding, horizontal scaling
 
 
-[14:36] Kasimsetty RameshGuptha, Shwetha
 what is SonarQube and what is it used for?
 what will happen if 2 subscribers will read the message from the same Kafka topic?
 Tell us about yourself, what you do, and your last project.
@@ -647,4 +646,49 @@ Use Spring Data JPA’s query methods or custom queries to perform geospatial se
 Examples:
 Find all locations within a given radius from a specific point.
 Find cities within a bounding box.
+
+Oops, Springboot focus
+Spring vs Springboot and how a bean is created in each
+Why beans are getting created in spring framework, what do they help in ?
+What was the basic architecture of your previous project , what were the responsibilities you managed in those?
+How does bean creation and dependency injection happen in spring/springboot?
+What design patterns do beans follow?
+Where can you use @transactional annotation in a basic spring boot app architecture?why?
+Difference between normal and prepared queries?
+What are the best practices you would have while implementing a microservice?
+Basic steps to design a cart feature for e-commerce.
+
+1. Find the 1st non repeating character "apple"->a
+2. Difference between Interface  & Abstract Class
+3. Exception Handling (throw throws)
+
+1. Find the 2nd highest salary 
+2. Find the names of employees having birthday today
+3. Group by employees based on their managers
+4. Indexing (Why we use and disadvantages)
+
+==============================================================================
+DS week 2
+1. find by ignorecase JPA
+prefixes in JPA
+
+snehal-suresh.brahmane@capgemini.com
+
+
+STAR approach to explain experience with Java and SpringBoot
+1. Find longest palindromic substring in a string.
+Did a palindrome checking method which checks if palindrome on each character and saves Max length. Also tried recursive approach.
+2. Find lowest common ancestor of two elements of a binary tree . Told a path based approach, and an optimal recursive approach. Not enough time so didn't get to code.
+
+
+argument captor in Junit -- one method calling another method and we need to pass the parameters to that method
+Ex : add method calling addon method and we need to know how many times the method is called in JUnit verify
+Difference between spy and mock along with specific use case
+ 
+We need to configure the log appender based on environment . How do you do it
+
+Difference between synchronized colletion and Concurrent collection.
+Sonarqube?
+what will happen if 2 subscribers will read the message from the same Kafka topic?
+
 

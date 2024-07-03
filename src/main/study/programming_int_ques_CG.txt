@@ -5,8 +5,8 @@
 2. 50 GB File : with headers - Name, Mark1, Mark2, Mark3, Department
 	if Department is cse , find the topper (Aggregation of Marks)
 
-3.Sending student object from ui to controller, in that retreive students names belongs to ECE department.
-	need to retrieve marks of respective students from DB.
+3. Sending student object from ui to controller, in that retreive students names belongs to ECE department.
+   need to retrieve marks of respective students from DB.
 
 4. Count the array number whose value greater then 100 `by using Java8 Stream ?
 
@@ -50,27 +50,17 @@
 	// each value is a sum of items from Array 1 after we remove from it 3 smallest numbers (first value of Array 2),
 	then 4 smallest (second value of Array 2), then 5 smallest numbers
 
-Difference between synchronized colletion and Concurrent collection.
-Sonarqube?
-what will happen if 2 subscribers will read the message from the same Kafka topic?
-
 16. First Non-repeated character from the String
-Ex:
-Input : { "array", "apple", "rat"}
-output : y,a,r
+    Example:
+    Input : { "array", "apple", "rat"}
+    Output : y,a,r
 
-17. find the second smallest number in integer array
+17. Find the second smallest number in integer array
+    Example:
+    Input: {3,2,1,1,0,-2,0,3,8}
+    Output : 0
 
-input: {3,2,1,1,0,-2,0,3,8}
-output : 0
-
-18. First Non-repeated character from the String
-
- Ex:
- Input : { "array", "apple", "rat"}
- Output: y,a,r
-
-19. Given a string array, each element containing a line of apache log file. Every line starts with an IP address.
+18. Given a string array, each element containing a line of apache log file. Every line starts with an IP address.
     Write a program that returns the IP address which appeared most of the times from the log file.
 
  ""123.123.23.123 - - [26/Apr/2000:00:23:48 -0400] \""GET /pics/wpaper.gif HTTP/1.0\"" 200 6248 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
@@ -80,18 +70,13 @@ output : 0
  + ""123.123.123.124 - - [26/Apr/2000:00:23:51 -0400] \""GET /pics/a2hlogo.jpg HTTP/1.0\"" 200 4282 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n""
  + ""123.123.123.124 - - [26/Apr/2000:00:23:51 -0400] \""GET /cgi-bin/newcount?jafsof3&width=4&font=digital&noshow HTTP/1.0\"" 200 36 \""http://  www.jafsoft.com/asctortf/\"" \""Mozilla/4.05 (Macintosh; I; PPC)\""\n"";"
 
-20. Find first Non-repeated character from the String
-Ex:
-Input : { "array", "apple", "rat"}
-Output: y,a,r
-
-11. Given two arrays. Arr1 = {1,2,3,8}, arr2 = {5,6,4,7}.
+19. Given two arrays. Arr1 = {1,2,3,8}, arr2 = {5,6,4,7}.
 	Find a number from each array to be interchanged to reach a common sum of all elements for both arrays.
 	Output: {1,5} or {3,7} or {2,6}
 
-12. Design a car rental service application.
+20. Design a car rental service application.
 
-13. Infrastructure system design Problem Statement
+21. Infrastructure system design Problem Statement
 
 	Design a scalable, reliable, and operable service which allows my customers to shorten URLs.
 	That is, given an HTTP URL, it should return another URL based on a custom domain we have.
@@ -112,3 +97,42 @@ Output: y,a,r
 
 	If possible, please design the system without relying on off-the-shelf software components and services.
 
+22. Implement a method (using streams) to find the top N frequent words from a given list of strings.
+    Note: Ignore case and consider words separated by whitespace as separate words.
+
+23. Calculate longest substring without repreating characters from a given String.
+
+24. To promote physical fitness, on the portal they launched a "GetFit" tournament consisting of n sprints.
+    Each sprint lasts for a given number of days and includes several tasks such as push-ups, running, etc.
+    Some tasks are scheduled for each day of the sprint. The ith sprint lasts for days[i] days,
+    and each sprint starts just after the other. That is, if the ith sprint ends on day d,
+    the (i + 1)th sprint starts on day (d + 1). During each sprint, completing the required tasks scheduled
+    on the jth day of the sprint earns the participant j points. The tournaments are periodic,
+    i.e, as soon as the last sprint of a tournament ends, the first sprint of the next tournament begins.
+    Each tournament, however, has the same schedule of sprints. More formally, the tournament schedule
+    can be considered cyclic in nature and after the last sprint, the first sprint starts again.
+    An employee decides to participate. However, due to a tight schedule, the employee cannot complete
+    all tasks every day. Instead, the employee will complete the tasks of exactly k consecutive days,
+    hoping to achieve the maximum number of points. Given the sprint days of n sprints, and the number of
+    days for which the employee competes for k, find the maximum points the employee can score.
+    The training can start and end on any day of any sprint.
+    Note:
+    • k is guaranteed to be less than the total number of days for which the sprints last.
+    • Also, it is not necessary to start and end the training in the same tournament.
+    • A sprint here denotes a set of activities performed in a particular time period.
+    Example 1: There are n = 3 sprints, the number of days of each sprint are days = [2,3,2], and k=4.
+    Explanation - The maximum number of points that can be attained = 2+1+2+3 = 8. One choice is to start on the last
+    day of the first sprint and end on the last day of the second sprint.
+    Example 2: days = [7,4,6,3,5] and k = 8, result = 33
+    Explanation - A maximum of 33 points can be earned by starting on day 5 of sprint 4 and ending
+    on the last day of sprint 5. The number of points earned is (5) + (1 + 2 + 3+ 4+ 5+ 6+7)=33. \
+    Note how as soon as one set of sprint ends, the tournament again starts with the sprint of 7 days.
+
+25. New Year's Day is around the corner and Amazon is having a sale.
+    They have a list of items they are considering but they may need to remove some of them.
+    Determine the minimum number of items to remove from an array of prices so that the sum of prices of any k items does not exceed a threshold.
+    Note: If the number of items in the list is less than k, then there is no need to remove any more items.
+    Example
+    prices= [3, 2, 1, 4, 6, 5]
+    k = 3
+    threshold=14.
