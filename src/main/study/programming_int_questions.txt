@@ -12,4 +12,29 @@
    Example -
         Input: inputArr=[1, 2, [3, [4, [5, 6]]], 7, [8, [9, [10]]]]
         Output: resultArr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-5.
+5. Write a program to print all possible valid combinations of parentheses for a given
+   number 'n' where 'n' represents number of parentheses in input.
+   Example:
+        Input: n = 3
+        Output: ["((()))","(()())","(())()","()(())","()()()"]
+
+        Input: n=2
+        Output: ["(())", "()()"]
+
+
+6. Write a program to print indexes of elements in a given array of integers whose sum
+   equals given target number.
+   Example:
+        Input: nums = [1, 7, 11, 15,2], target = 9
+        Output: [1, 4]
+        Explanation: nums[1] + nums[4] = 7 + 2= 9, so the output is [1, 4].
+
+
+7. A given array of integers represents day wise value of an item. Write a program to
+   find the day on which if the item is sold the profit will be maximum.
+   Example:
+        Input: prices = [7,1,5,3,6,4]
+        Output: 5
+        Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6),
+        profit = 6-1 = 5.
+        Note that buying on day 2 and selling on day 1 is not allowed
