@@ -37,7 +37,40 @@
         }
 28. In above question what conditions Employee class must satisfy to be able to use as key in a HashMap?
 29. What if only hashCode is overridden but not equals? Also explain answer for vice-versa condition.
-30.
+30. Explain State machine algorithm?
+31. How do you implement a logic where second thread checks if first thread has completed it's operation or not, if not it should
+       stop the first thread and then start executing.
+32. How do you debug in a multithreading environment?
+33. SOLID principles.
+34. Advantages and disadvantages of singleton pattern.
+35. Mention some scenarios where abstract classes are required over interfaces(for Java 8+).
+36. Design a coffee machine.
+37. How do you manage resource sharing in multithreading?
+38. What is LinkedBlockingQueue in Java?
+39. Explain OOPS concepts.
+40. What are different types of polymorphism?
+41. Which is compile time polymorphism and which is dynamic? (Overriding/Overloading)
+42. Can we override main method?
+43. Can we overload main method?
+44. How do we disable autoconfiguration in class in Springboot?
+45. Write a program to identify loop in a linkedlist.
+46. Write a custom implementation of creating threadpool.
+47. Write a program to find pair of numbers from an integer array whose sum is closest to 0.
+48. Write a program to count number of squares present in a mxn matrix.
+49. How will you identify the bottleneck in a microservice architecture if memory usage
+    is very high.
+50. Design a producer consumer implementation using BlockingQueues.
+51. Advantage of using Docker over traditional deployment techniques.
+52. Advantage of using Kubernetes.
+53. What is probing?
+54. Reasons for selecting NoSQL and SQL databases in a project.
+55. Read and write operations faster on which database SQL or NoSQL? Explain Why.
+56. Give examples of inner join and outer join.
+57. Explain the http protocols when a url is accessed from browser.
+58. Who provides IP address to url mapping?
+59. How does browser knows which DNS to look for when a url is hit?
+60. What is default port in a server?
+61. What is symmetric encryption and asymmetric encryption?
 
 ==========================================================================================
 BiConsumer
