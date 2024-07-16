@@ -71,6 +71,22 @@
 59. How does browser knows which DNS to look for when a url is hit?
 60. What is default port in a server?
 61. What is symmetric encryption and asymmetric encryption?
+62. Explain @SpringBootApplication annotation.
+63. Which annotation is used to enable spring security.
+64. Why do we need spring security.
+65. What is the use of @RestControllerAdvice annotation.
+66. How does OAuth works?
+67. How ArrayList works internally?
+68. Explain working of ConcurrentHashMap.
+69. What will happen if two keys generate the same hashcode?
+70. Which exception is thrown in case of hashcode collision?
+71. What is profiling in SpringBoot?
+72. Why do we need @Value annotation?
+73. How do we connect to multiple databases from a SpringBoot application?
+74. What is streams in Java 8?
+75. Advantages of Stream API.
+76. intermediate vs terminal operations.
+77. PathParam vs RequestParam?
 
 ==========================================================================================
 BiConsumer
