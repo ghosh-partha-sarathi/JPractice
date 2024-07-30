@@ -96,6 +96,7 @@
 84. Can @Transactional be used in a private method?
 85. How will you secure an endpoint.
 86. What is service discovery?
+87. How do you group a list of objects using stream API?
 
 ==========================================================================================
 BiConsumer
