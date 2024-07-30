@@ -40,3 +40,15 @@
         Note that buying on day 2 and selling on day 1 is not allowed
 
 8. Write a program to reverse all the words in a sentence.
+
+9. Find sum of all checksums from a given list of integers after removing smallest
+   and largest digits from each number.
+   'Checksum' of a number is sum of all digits present in the number.
+   Example:
+   Explanation:
+
+10. For given integer inputs N and P, find the prime index whose sum is greater than P.
+    Example:
+    Explanation:
+
+11. Frog hopping, find minimum hops.

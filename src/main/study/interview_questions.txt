@@ -87,6 +87,15 @@
 75. Advantages of Stream API.
 76. intermediate vs terminal operations.
 77. PathParam vs RequestParam?
+78. What are stereotype annotations in SpringBoot?
+79. Connection pooling API.
+80. @Bean vs @Component annotations.
+81. Which annotation used for role based authorization.
+82. Explain REST architecture.
+83. Hashing algorithm.
+84. Can @Transactional be used in a private method?
+85. How will you secure an endpoint.
+86. What is service discovery?
 
 ==========================================================================================
 BiConsumer

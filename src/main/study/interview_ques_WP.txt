@@ -55,4 +55,29 @@
 53. Explain Spring webflux.
 54. Print a string without duplicate character.
 55. Create new HashMap implementation.
-56. 
+=========================================================================
+1. JAVA -8 how many features do you know.
+2. What is the OPP concepts
+3. Explain the polymorphism and share any single example
+4. what is the overloading in JAVA
+5. Employee list how to filter by name using the stream APIs.
+6. What is the BFF service.
+7. What can call core service apis in BFF Service inside.
+8. what is the RESTTemplate using in Apis.
+9. Diff between @Controller and @RESTController.
+10. How can create the get Apis fetch records against using by id.
+11. How to use the projections and when we required?
+12. For get the data from Apis its require the entity class or not
+13. Why do we use serialVersionUID ?
+14. Internal Working of HashMap and HashSet?
+15. Explain The Difference Between Final, Finally, And Finalize In Java.
+16. Explain The Difference Between The Comparable And Comparator Interfaces In Java.
+17. What Are The Key Differences Between ArrayList And LinkedList In Java?
+18. What Is The Purpose Of The HashCode() And Equals() Methods In Java?
+19. What Are Some Common Uses Of Java Reflection API?
+20. why we are using the Micro-service project?
+21. Difference between post and and delete method.
+22. What are the different types of entity mapping in database.
+23. What is Java Persistence API (JPA)?
+24. What are entities in JPA? Explain the concept in detail.
+25. Difference between get and load method.
