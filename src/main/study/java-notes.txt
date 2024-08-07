@@ -79,4 +79,5 @@ What is scope creep?
 
 Spring Security
 =============================================
-https://www.coursera.org/programs/capgemini-learning-program-71mtd/learn/cloud-services-java-spring-framework?authProvider=capgemini&source=search
+https://capgemini.udemy.com/course/spring-security-zero-to-master/learn/lecture/44767239?kw=spring+security&src=sac#overview
+https://github.com/eazybytes/spring-security

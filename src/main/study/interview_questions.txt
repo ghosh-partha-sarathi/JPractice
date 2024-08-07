@@ -97,6 +97,7 @@
 85. How will you secure an endpoint.
 86. What is service discovery?
 87. How do you group a list of objects using stream API?
+88. How to change default embedded web-server in a springboot application.
 
 ==========================================================================================
 BiConsumer

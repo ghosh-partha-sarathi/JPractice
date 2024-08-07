@@ -48,7 +48,32 @@
    Explanation:
 
 10. For given integer inputs N and P, find the prime index whose sum is greater than P.
-    Example:
+    Example1:
+        Input - N=8, P=9
+        Output - 3
     Explanation:
 
-11. Frog hopping, find minimum hops.
+    Example2:
+        Input - N=10, P=20
+        Output - 6
+    Explanation:
+
+    Example3:
+        Input - N=15, P=35
+        Output - 8
+    Explanation:
+
+11. Frog hopping, find minimum hops required to reach the last step.
+    Example:
+        Input: [2, 3, 2, 1, 4, 1]
+        Output: 3
+    Explanation: index 0 -> 1 -> 4 -> 5
+
+12. Write a program to spirally traverse and print elements of a n x n matrix.
+
+13. Write a program to print maximum salary of each department from a list of Employee objects.
+    Employee object consists of following fields-
+    Employee Id - Integer
+    Name        - String
+    Department  - String
+    Salary      - Integer
