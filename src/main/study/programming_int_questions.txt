@@ -63,7 +63,10 @@
         Output - 8
     Explanation:
 
-11. Frog hopping, find minimum hops required to reach the last step.
+11. Frog hopping problem.
+    A frog is standing at the first index of an array where elements of array indicates
+    maximum number of steps the frog can jump from that position. Find minimum hops required
+    to reach the end of array.
     Example:
         Input: [2, 3, 2, 1, 4, 1]
         Output: 3
