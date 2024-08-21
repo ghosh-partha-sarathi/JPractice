@@ -102,7 +102,10 @@
 90. How @Transactional works internally?
 91. Explain 'state' in REST.
 92. What are path param and query param?
-93.
+93. What are new features added in Java 17?
+94. When do we use ForkJoinPool?
+95. Explain Executors.
+96. Explain Future objects in java.
 
 ==========================================================================================
 BiConsumer
